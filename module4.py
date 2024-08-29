@@ -44,21 +44,6 @@ while first<5:
     first += 1
     print('all done')
 '''
-#1
-number = 1
-while number <=1000:
-    if number % 3 == 0:
-        print(number)
-    number+=1
-
-#2
-while True:
-    inches = float(input('Enter the number of inches: '))
-    if inches<0:
-        print('program stopped')
-        break
-    cm = inches * 2.54
-    print(f'{inches} is equal to {cm} centimeters')
 
 #3
 
