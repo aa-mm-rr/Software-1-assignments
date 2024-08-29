@@ -1,3 +1,4 @@
+
 #1
 length = float(input("Enter the length of the zander in centimeters: "))
 sizeLimit = 42
@@ -37,3 +38,12 @@ elif gender == 'male' and 134<hemo<167:
 else:
     gender = 'male' and hemo>167
     print("Your hemoglobin is high")
+
+#4
+year = int(input("Enter your year: "))
+if (year % 4 ==0):
+    print ('Your year is a leap year')
+elif (year%100 ==0 and year%400 ==0):
+    print ("Your year is leap year")
+else :
+    print ("Your year is odd")
