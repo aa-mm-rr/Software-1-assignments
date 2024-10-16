@@ -1,7 +1,7 @@
 '''
 dict1 = {'m': 11, 'f':34,'h':77}
 print(dict1.values())
-'''
+
 dict2 = {}
 for _ in range(5):
     key = input('Enter a key: ')
@@ -9,3 +9,6 @@ for _ in range(5):
     dict2[key] = value
 totalSum = sum(dict2.values())
 print('Total sum of all entered values is: ', totalSum)
+'''
+num = 5//2
+print(num)
